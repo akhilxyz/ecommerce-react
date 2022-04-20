@@ -7,28 +7,28 @@ import { multilanguage, loadLanguages } from "redux-multilanguage";
 import { connect } from "react-redux";
 import { BreadcrumbsProvider } from "react-breadcrumbs-dynamic";
 
-// home pages
-const HomeFashion = lazy(() => import("./pages/home/HomeFashion"));
-const HomeFashionTwo = lazy(() => import("./pages/home/HomeFashionTwo"));
-const HomeFashionThree = lazy(() => import("./pages/home/HomeFashionThree"));
-const HomeFashionFour = lazy(() => import("./pages/home/HomeFashionFour"));
-const HomeFashionFive = lazy(() => import("./pages/home/HomeFashionFive"));
-const HomeFashionSix = lazy(() => import("./pages/home/HomeFashionSix"));
-const HomeFashionSeven = lazy(() => import("./pages/home/HomeFashionSeven"));
-const HomeFashionEight = lazy(() => import("./pages/home/HomeFashionEight"));
-const HomeKidsFashion = lazy(() => import("./pages/home/HomeKidsFashion"));
-const HomeCosmetics = lazy(() => import("./pages/home/HomeCosmetics"));
-const HomeFurniture = lazy(() => import("./pages/home/HomeFurniture"));
-const HomeFurnitureTwo = lazy(() => import("./pages/home/HomeFurnitureTwo"));
-const HomeFurnitureThree = lazy(() =>
-  import("./pages/home/HomeFurnitureThree")
-);
-const HomeFurnitureFour = lazy(() => import("./pages/home/HomeFurnitureFour"));
-const HomeFurnitureFive = lazy(() => import("./pages/home/HomeFurnitureFive"));
-const HomeFurnitureSix = lazy(() => import("./pages/home/HomeFurnitureSix"));
-const HomeFurnitureSeven = lazy(() =>
-  import("./pages/home/HomeFurnitureSeven")
-);
+// // home pages
+// const HomeFashion = lazy(() => import("./pages/home/HomeFashion"));
+// const HomeFashionTwo = lazy(() => import("./pages/home/HomeFashionTwo"));
+// const HomeFashionThree = lazy(() => import("./pages/home/HomeFashionThree"));
+// const HomeFashionFour = lazy(() => import("./pages/home/HomeFashionFour"));
+// const HomeFashionFive = lazy(() => import("./pages/home/HomeFashionFive"));
+// const HomeFashionSix = lazy(() => import("./pages/home/HomeFashionSix"));
+// const HomeFashionSeven = lazy(() => import("./pages/home/HomeFashionSeven"));
+// const HomeFashionEight = lazy(() => import("./pages/home/HomeFashionEight"));
+// const HomeKidsFashion = lazy(() => import("./pages/home/HomeKidsFashion"));
+// const HomeCosmetics = lazy(() => import("./pages/home/HomeCosmetics"));
+// const HomeFurniture = lazy(() => import("./pages/home/HomeFurniture"));
+// const HomeFurnitureTwo = lazy(() => import("./pages/home/HomeFurnitureTwo"));
+// const HomeFurnitureThree = lazy(() =>
+//   import("./pages/home/HomeFurnitureThree")
+// );
+// const HomeFurnitureFour = lazy(() => import("./pages/home/HomeFurnitureFour"));
+// const HomeFurnitureFive = lazy(() => import("./pages/home/HomeFurnitureFive"));
+// const HomeFurnitureSix = lazy(() => import("./pages/home/HomeFurnitureSix"));
+// const HomeFurnitureSeven = lazy(() =>
+//   import("./pages/home/HomeFurnitureSeven")
+// );
 const HomeElectronics = lazy(() => import("./pages/home/HomeElectronics"));
 const HomeElectronicsTwo = lazy(() =>
   import("./pages/home/HomeElectronicsTwo")
@@ -36,65 +36,65 @@ const HomeElectronicsTwo = lazy(() =>
 const HomeElectronicsThree = lazy(() =>
   import("./pages/home/HomeElectronicsThree")
 );
-const HomeBookStore = lazy(() => import("./pages/home/HomeBookStore"));
-const HomeBookStoreTwo = lazy(() => import("./pages/home/HomeBookStoreTwo"));
-const HomePlants = lazy(() => import("./pages/home/HomePlants"));
-const HomeFlowerShop = lazy(() => import("./pages/home/HomeFlowerShop"));
-const HomeFlowerShopTwo = lazy(() => import("./pages/home/HomeFlowerShopTwo"));
-const HomeOrganicFood = lazy(() => import("./pages/home/HomeOrganicFood"));
-const HomeOrganicFoodTwo = lazy(() =>
-  import("./pages/home/HomeOrganicFoodTwo")
-);
-const HomeOnepageScroll = lazy(() => import("./pages/home/HomeOnepageScroll"));
-const HomeGridBanner = lazy(() => import("./pages/home/HomeGridBanner"));
-const HomeAutoParts = lazy(() => import("./pages/home/HomeAutoParts"));
-const HomeCakeShop = lazy(() => import("./pages/home/HomeCakeShop"));
-const HomeHandmade = lazy(() => import("./pages/home/HomeHandmade"));
-const HomePetFood = lazy(() => import("./pages/home/HomePetFood"));
-const HomeMedicalEquipment = lazy(() =>
-  import("./pages/home/HomeMedicalEquipment")
-);
-const HomeChristmas = lazy(() => import("./pages/home/HomeChristmas"));
-const HomeBlackFriday = lazy(() => import("./pages/home/HomeBlackFriday"));
-const HomeBlackFridayTwo = lazy(() =>
-  import("./pages/home/HomeBlackFridayTwo")
-);
-const HomeValentinesDay = lazy(() => import("./pages/home/HomeValentinesDay"));
+// const HomeBookStore = lazy(() => import("./pages/home/HomeBookStore"));
+// const HomeBookStoreTwo = lazy(() => import("./pages/home/HomeBookStoreTwo"));
+// const HomePlants = lazy(() => import("./pages/home/HomePlants"));
+// const HomeFlowerShop = lazy(() => import("./pages/home/HomeFlowerShop"));
+// const HomeFlowerShopTwo = lazy(() => import("./pages/home/HomeFlowerShopTwo"));
+// const HomeOrganicFood = lazy(() => import("./pages/home/HomeOrganicFood"));
+// const HomeOrganicFoodTwo = lazy(() =>
+//   import("./pages/home/HomeOrganicFoodTwo")
+// );
+// const HomeOnepageScroll = lazy(() => import("./pages/home/HomeOnepageScroll"));
+// const HomeGridBanner = lazy(() => import("./pages/home/HomeGridBanner"));
+// const HomeAutoParts = lazy(() => import("./pages/home/HomeAutoParts"));
+// const HomeCakeShop = lazy(() => import("./pages/home/HomeCakeShop"));
+// const HomeHandmade = lazy(() => import("./pages/home/HomeHandmade"));
+// const HomePetFood = lazy(() => import("./pages/home/HomePetFood"));
+// const HomeMedicalEquipment = lazy(() =>
+//   import("./pages/home/HomeMedicalEquipment")
+// );
+// const HomeChristmas = lazy(() => import("./pages/home/HomeChristmas"));
+// const HomeBlackFriday = lazy(() => import("./pages/home/HomeBlackFriday"));
+// const HomeBlackFridayTwo = lazy(() =>
+//   import("./pages/home/HomeBlackFridayTwo")
+// );
+// const HomeValentinesDay = lazy(() => import("./pages/home/HomeValentinesDay"));
 
-// shop pages
-const ShopGridStandard = lazy(() => import("./pages/shop/ShopGridStandard"));
-const ShopGridFilter = lazy(() => import("./pages/shop/ShopGridFilter"));
-const ShopGridTwoColumn = lazy(() => import("./pages/shop/ShopGridTwoColumn"));
-const ShopGridNoSidebar = lazy(() => import("./pages/shop/ShopGridNoSidebar"));
-const ShopGridFullWidth = lazy(() => import("./pages/shop/ShopGridFullWidth"));
-const ShopGridRightSidebar = lazy(() =>
-  import("./pages/shop/ShopGridRightSidebar")
-);
-const ShopListStandard = lazy(() => import("./pages/shop/ShopListStandard"));
-const ShopListFullWidth = lazy(() => import("./pages/shop/ShopListFullWidth"));
-const ShopListTwoColumn = lazy(() => import("./pages/shop/ShopListTwoColumn"));
+// // shop pages
+// const ShopGridStandard = lazy(() => import("./pages/shop/ShopGridStandard"));
+// const ShopGridFilter = lazy(() => import("./pages/shop/ShopGridFilter"));
+// const ShopGridTwoColumn = lazy(() => import("./pages/shop/ShopGridTwoColumn"));
+// const ShopGridNoSidebar = lazy(() => import("./pages/shop/ShopGridNoSidebar"));
+// const ShopGridFullWidth = lazy(() => import("./pages/shop/ShopGridFullWidth"));
+// const ShopGridRightSidebar = lazy(() =>
+//   import("./pages/shop/ShopGridRightSidebar")
+// );
+// const ShopListStandard = lazy(() => import("./pages/shop/ShopListStandard"));
+// const ShopListFullWidth = lazy(() => import("./pages/shop/ShopListFullWidth"));
+// const ShopListTwoColumn = lazy(() => import("./pages/shop/ShopListTwoColumn"));
 
-// product pages
-const Product = lazy(() => import("./pages/shop-product/Product"));
-const ProductTabLeft = lazy(() =>
-  import("./pages/shop-product/ProductTabLeft")
-);
-const ProductTabRight = lazy(() =>
-  import("./pages/shop-product/ProductTabRight")
-);
-const ProductSticky = lazy(() => import("./pages/shop-product/ProductSticky"));
-const ProductSlider = lazy(() => import("./pages/shop-product/ProductSlider"));
-const ProductFixedImage = lazy(() =>
-  import("./pages/shop-product/ProductFixedImage")
-);
+// // product pages
+// const Product = lazy(() => import("./pages/shop-product/Product"));
+// const ProductTabLeft = lazy(() =>
+//   import("./pages/shop-product/ProductTabLeft")
+// );
+// const ProductTabRight = lazy(() =>
+//   import("./pages/shop-product/ProductTabRight")
+// );
+// const ProductSticky = lazy(() => import("./pages/shop-product/ProductSticky"));
+// const ProductSlider = lazy(() => import("./pages/shop-product/ProductSlider"));
+// const ProductFixedImage = lazy(() =>
+//   import("./pages/shop-product/ProductFixedImage")
+// );
 
-// blog pages
-const BlogStandard = lazy(() => import("./pages/blog/BlogStandard"));
-const BlogNoSidebar = lazy(() => import("./pages/blog/BlogNoSidebar"));
-const BlogRightSidebar = lazy(() => import("./pages/blog/BlogRightSidebar"));
-const BlogDetailsStandard = lazy(() =>
-  import("./pages/blog/BlogDetailsStandard")
-);
+// // blog pages
+// const BlogStandard = lazy(() => import("./pages/blog/BlogStandard"));
+// const BlogNoSidebar = lazy(() => import("./pages/blog/BlogNoSidebar"));
+// const BlogRightSidebar = lazy(() => import("./pages/blog/BlogRightSidebar"));
+// const BlogDetailsStandard = lazy(() =>
+//   import("./pages/blog/BlogDetailsStandard")
+// );
 
 // other pages
 const About = lazy(() => import("./pages/other/About"));
@@ -138,81 +138,81 @@ const App = (props) => {
               }
             >
               <Switch>
-                <Route
+                {/* <Route
                   exact
                   path={process.env.PUBLIC_URL + "/"}
                   component={HomeFashion}
                 />
 
-                {/* Homepages */}
-                <Route
-                  path={process.env.PUBLIC_URL + "/home-fashion"}
-                  component={HomeFashion}
-                />
-                <Route
-                  path={process.env.PUBLIC_URL + "/home-fashion-two"}
-                  component={HomeFashionTwo}
-                />
-                <Route
-                  path={process.env.PUBLIC_URL + "/home-fashion-three"}
-                  component={HomeFashionThree}
-                />
-                <Route
-                  path={process.env.PUBLIC_URL + "/home-fashion-four"}
-                  component={HomeFashionFour}
-                />
-                <Route
-                  path={process.env.PUBLIC_URL + "/home-fashion-five"}
-                  component={HomeFashionFive}
-                />
-                <Route
-                  path={process.env.PUBLIC_URL + "/home-fashion-six"}
-                  component={HomeFashionSix}
-                />
-                <Route
-                  path={process.env.PUBLIC_URL + "/home-fashion-seven"}
-                  component={HomeFashionSeven}
-                />
-                <Route
-                  path={process.env.PUBLIC_URL + "/home-fashion-eight"}
-                  component={HomeFashionEight}
-                />
-                <Route
-                  path={process.env.PUBLIC_URL + "/home-kids-fashion"}
-                  component={HomeKidsFashion}
-                />
-                <Route
-                  path={process.env.PUBLIC_URL + "/home-cosmetics"}
-                  component={HomeCosmetics}
-                />
-                <Route
-                  path={process.env.PUBLIC_URL + "/home-furniture"}
-                  component={HomeFurniture}
-                />
-                <Route
-                  path={process.env.PUBLIC_URL + "/home-furniture-two"}
-                  component={HomeFurnitureTwo}
-                />
-                <Route
-                  path={process.env.PUBLIC_URL + "/home-furniture-three"}
-                  component={HomeFurnitureThree}
-                />
-                <Route
-                  path={process.env.PUBLIC_URL + "/home-furniture-four"}
-                  component={HomeFurnitureFour}
-                />
-                <Route
-                  path={process.env.PUBLIC_URL + "/home-furniture-five"}
-                  component={HomeFurnitureFive}
-                />
-                <Route
-                  path={process.env.PUBLIC_URL + "/home-furniture-six"}
-                  component={HomeFurnitureSix}
-                />
-                <Route
-                  path={process.env.PUBLIC_URL + "/home-furniture-seven"}
-                  component={HomeFurnitureSeven}
-                />
+                // {/* Homepages */}
+                //{/* <Route
+                //   path={process.env.PUBLIC_URL + "/home-fashion"}
+                //   component={HomeFashion}
+                // />
+                // <Route
+                //   path={process.env.PUBLIC_URL + "/home-fashion-two"}
+                //   component={HomeFashionTwo}
+                // />
+                // <Route
+                //   path={process.env.PUBLIC_URL + "/home-fashion-three"}
+                //   component={HomeFashionThree}
+                // />
+                // <Route
+                //   path={process.env.PUBLIC_URL + "/home-fashion-four"}
+                //   component={HomeFashionFour}
+                // />
+                // <Route
+                //   path={process.env.PUBLIC_URL + "/home-fashion-five"}
+                //   component={HomeFashionFive}
+                // />
+                // <Route
+                //   path={process.env.PUBLIC_URL + "/home-fashion-six"}
+                //   component={HomeFashionSix}
+                // />
+                // <Route
+                //   path={process.env.PUBLIC_URL + "/home-fashion-seven"}
+                //   component={HomeFashionSeven}
+                // />
+                // <Route
+                //   path={process.env.PUBLIC_URL + "/home-fashion-eight"}
+                //   component={HomeFashionEight}
+                // />
+                // <Route
+                //   path={process.env.PUBLIC_URL + "/home-kids-fashion"}
+                //   component={HomeKidsFashion}
+                // />
+                // <Route
+                //   path={process.env.PUBLIC_URL + "/home-cosmetics"}
+                //   component={HomeCosmetics}
+                // />
+                // <Route
+                //   path={process.env.PUBLIC_URL + "/home-furniture"}
+                //   component={HomeFurniture}
+                // />
+                // <Route
+                //   path={process.env.PUBLIC_URL + "/home-furniture-two"}
+                //   component={HomeFurnitureTwo}
+                // />
+                // <Route
+                //   path={process.env.PUBLIC_URL + "/home-furniture-three"}
+                //   component={HomeFurnitureThree}
+                // />
+                // <Route
+                //   path={process.env.PUBLIC_URL + "/home-furniture-four"}
+                //   component={HomeFurnitureFour}
+                // />
+                // <Route
+                //   path={process.env.PUBLIC_URL + "/home-furniture-five"}
+                //   component={HomeFurnitureFive}
+                // />
+                // <Route
+                //   path={process.env.PUBLIC_URL + "/home-furniture-six"}
+                //   component={HomeFurnitureSix}
+                // />
+                // <Route
+                //   path={process.env.PUBLIC_URL + "/home-furniture-seven"}
+                //   component={HomeFurnitureSeven}
+            // />*/}
                 <Route
                   path={process.env.PUBLIC_URL + "/home-electronics"}
                   component={HomeElectronics}
@@ -225,7 +225,7 @@ const App = (props) => {
                   path={process.env.PUBLIC_URL + "/home-electronics-three"}
                   component={HomeElectronicsThree}
                 />
-                <Route
+                {/* <Route
                   path={process.env.PUBLIC_URL + "/home-book-store"}
                   component={HomeBookStore}
                 />
@@ -380,7 +380,7 @@ const App = (props) => {
                 <Route
                   path={process.env.PUBLIC_URL + "/blog-details-standard"}
                   component={BlogDetailsStandard}
-                />
+                /> */} */}
 
                 {/* Other pages */}
                 <Route
